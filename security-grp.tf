@@ -27,6 +27,9 @@ resource "aws_security_group" "apache_sg" {
 }
 
 
+
+
+
 resource "aws_security_group_rule" "apache_80" {
   type              = "ingress"
   from_port         = 80
